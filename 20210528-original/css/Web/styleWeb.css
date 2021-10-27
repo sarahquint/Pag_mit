@@ -1,0 +1,186 @@
+
+#fh5co-intro {
+  position: relative;
+  bottom: 0;
+  margin-top: 100px;
+  padding-bottom: 33em;
+  height: 500px;
+  margin-bottom: 40px;
+
+}
+
+#fh5co-intro > div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+}
+#fh5co-intro .fh5co-block {
+  width: 33.33%;
+  height: 425px;
+  float: left;
+  font-size: 18px;
+  min-height: 300px;
+  vertical-align: middle;
+  padding: 40px;
+  background: #fff;
+  -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+  z-index: 7;
+  flex-grow: 1;
+  background-size: cover;
+  position: relative;
+  backgroun-repeat: no-repeat;
+}
+
+
+#fh5co-intro .fh5co-block > .overlay-darker {
+  z-index: 8;
+  opacity: .5;
+  background: #474747;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#fh5co-intro .fh5co-block > .overlay {
+  background: #fff;
+  opacity: 1;
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-intro .fh5co-block > .fh5co-text {
+  position: relative;
+  z-index: 10;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#fh5co-intro .fh5co-block h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+#fh5co-intro .fh5co-block h4 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+#fh5co-intro .fh5co-block p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+#fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
+  opacity: 0;
+  z-index: 9;
+}
+#fh5co-intro .fh5co-block:hover > .fh5co-text, #fh5co-intro .fh5co-block:focus > .fh5co-text {
+  color: #fff;
+}
+#fh5co-intro .fh5co-block:hover > .fh5co-text .fh5co-intro-icon, #fh5co-intro .fh5co-block:focus > .fh5co-text .fh5co-intro-icon {
+  color: #fff;
+}
+#fh5co-intro .fh5co-block:hover h2, #fh5co-intro .fh5co-block:focus h2 {
+  color: #fff;
+}
+#fh5co-intro .fh5co-block:hover h4, #fh5co-intro .fh5co-block:focus h4 {
+  color: #fff;
+}
+#fh5co-intro .fh5co-block:hover p, #fh5co-intro .fh5co-block:focus p {
+  color: #fff;
+}
+#fh5co-intro .fh5co-block:hover .btn, #fh5co-intro .fh5co-block:focus .btn {
+  border: 2px solid #fff !important;
+  background: transparent;
+}
+#fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
+  background: #EB1C1C !important;
+  border: 2px solid #EB1C1C !important;
+  color: #fff;
+}
+
+.btn-web{
+  background-color: #333333;
+  color: #fff;  
+  padding-left: 35px;
+  padding-right: 35px;
+
+}
+    
+
+.row-bottom-padded-lg {
+  padding-bottom: 7em;
+}
+
+
+@media screen and (max-width: 768px) {
+  #fh5co-intro .fh5co-block {
+    width: 100%;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-lg {
+    padding-bottom: 2em;
+  }
+}
+
+.row-bottom-padded-md {
+  padding-bottom: 4em;
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-md {
+    padding-bottom: 2em;
+  }
+}
+
+.row-bottom-padded-sm {
+  padding-bottom: 2em;
+}
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-sm {
+    padding-bottom: 2em;
+  }
+@media screen and (max-width: 768px) {
+  #fh5co-intro {
+    padding-bottom: 3em;
+  }
+}
+
+@media screen and (max-width:640px){
+  #fh5co-intro .fh5co-block h2 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+#fh5co-intro .fh5co-block h4 {
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+}
+#fh5co-intro .fh5co-block p {
+  font-size: 14px;
+  font-weight: 200;
+  text-align: justify;
+}
+#slider3,#slider,#slider2,#slider4  {
+  visibility: hidden;
+  }
+}
