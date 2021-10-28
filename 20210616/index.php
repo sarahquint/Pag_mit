@@ -116,7 +116,7 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-11 col-md-6 col-lg-4">
                             <div class="hero-content">
-                                <h2>Megabit International Telecomm</h2>
+                                <h2>Megabit International Telecomm2</h2>
 
                                 <p>Ingenier&iacute;a en Telecomunicaciones orientada al desarrollo de proyectos.</p>
                                 <!--<img src="img/core-img/logo.jpg" alt="" class="img">-->
