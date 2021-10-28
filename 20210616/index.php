@@ -118,7 +118,7 @@
                             <div class="hero-content">
                                 <h2>Megabit International Telecomm2</h2>
 
-                                <p>Ingenier&iacute;a en Telecomunicaciones orientada al desarrollo de proyectos.</p>
+                                <p>Probando cambios desde visual studio code.</p>
                                 <!--<img src="img/core-img/logo.jpg" alt="" class="img">-->
                                 <!-- <a href="#" class="btn caviar-btn"><span></span> Reservation</a>-->
                             </div>
